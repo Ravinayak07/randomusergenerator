@@ -15,18 +15,19 @@
     margin: auto;
     padding-left: 20rem;
     padding-right: 20rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     min-height: 70vh;
 }
-.screen {
+.card {
   position: relative;
   border-radius: 1rem;
+  border: 8px solid rgb(248, 45, 18);
   background: #F8D02E;
   transform-style: preserve-3d;
   transition: 1s;
   box-shadow: 0 10px 25px rgba(242, 248, 242, 0.966);
 }
-.screen-body {
+.card-body {
   display: block;
 }
 .title {
@@ -65,8 +66,8 @@
   }
   
   .female {
-    border-color: rgb(248, 26, 63);
-    background-color: rgb(248, 26, 63);
+    border-color: rgb(255, 32, 199);
+    background-color: rgb(255, 32, 199);
     
   }
   
